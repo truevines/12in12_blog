@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 
-
+gem 'devise', '~> 4.2.0'
 
   require 'rbconfig'
   if RbConfig::CONFIG['target_os'] =~ /darwin(1[0-3])/i
